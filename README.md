@@ -14,9 +14,12 @@ Data Selection : Binary Differential Evolution (Code from Mr. Too Jing Wei, http
 Classification: Support Vector Machine
 
 Vaidation: 10-Fold Cross Validation
-
+ 
+  
+  
 
 File Details:
+
 Training.m is the code to train the model
 
 Testing.m is the code to predict new data

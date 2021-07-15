@@ -14,3 +14,8 @@ Data Selection - Binary Differential Evolution (The code is from Mr. Too Jing We
 Classification - Support Vector Machine,
 
 Validation - 10-Fold Cross Validation
+
+Training.m is the code to train the model.
+Testing.m is the code to predict new data.
+Preprocess_Function.m, Extraction_Function.m, Result_Function.m is the functions will be used in Testing.m.
+SVM.mat is the data file of the trained model.

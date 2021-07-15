@@ -1,4 +1,4 @@
-Machine Learning Model to Diagnose Depression
+A Machine Learning Model to Diagnose Depression using EEG Data
 
 This is a model I built for my capstone project.
 

@@ -36,43 +36,30 @@ X = data{n};
 opts.fs = 250;
 % Hjorth Activity
 f1 = jfeeg('ha', X); 
-
 % Hjorth Mobility
 f2 = jfeeg('hm', X); 
-
 % Hjorth Complexity
 f3 = jfeeg('hc', X);
-
 % Band Power Alpha
 f4 = jfeeg('bpa', X, opts);
-
 % Band Power Beta
 f5 = jfeeg('bpb',X,opts);
-
 % Band Power Theta
 f6 = jfeeg('bpt',X,opts);
-
 % Band Power Delta
 f7 = jfeeg('bpd',X,opts);
-
 % Band Power Gamma
 f8 = jfeeg('bpg',X,opts);
-
 % Standard Deviation
 f9 = jfeeg('sd',X);
-
 % Median
 f10 = jfeeg('md',X);
-
 % Maximum
 f11 = jfeeg('max',X);
-
 % Minimum
 f12 = jfeeg('min',X);
-
 % Skewness
 f13 = jfeeg('skew',X);
-
 % Kurtosis
 f14 = jfeeg('kurt',X);
 
@@ -109,13 +96,11 @@ Label_tr = data_tr(:,end);
 Feature_ts = data_ts(:,1:n-1);
 Label_ts = data_ts(:,end);
 
-% Classification
-
+% Classification - Support Vector Machine
 % Train the model
 SVMModel = fitcsvm(Feature_tr,Label_tr,'KernelFunction','rbf',...
              'Standardize',true,'ClassNames',{'1','0'});
-
-%Cross Validation
+% Cross Validation
 partitionedModel = crossval(SVMModel,'KFold',10);
 Accuracy = 1-loss(SVMModel,Feature_ts,Label_ts);
 

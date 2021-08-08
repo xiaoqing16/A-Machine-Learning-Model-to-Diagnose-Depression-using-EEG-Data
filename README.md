@@ -17,7 +17,7 @@ The dataset, [EEG_3channels_resting_lanzhou_2015](http://modma.lzu.edu.cn/) is p
 - Feature Extraction: [EEG Feature Extraction Toolbox](https://github.com/JingweiToo/EEG-Feature-Extraction-Toolbox)
 - Feature Selection : [Binary Differential Evolution](https://github.com/JingweiToo/Binary-Differential-Evolution-for-Feature-Selection)
 - Classification: Support Vector Machine
-- Vaidation: 10-Fold Cross Validation
+- Validation: 10-Fold Cross Validation
  
 ## Result
 The accuracy of the model is only 68.67%. One of the reason of low accuracy is the dataset is too small as it only have total 55 data where 26 depression patients and 28 healthy controls.

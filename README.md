@@ -28,7 +28,7 @@ The accuracy of the model is only 68.67%. One of the reason of low accuracy is t
 - SVM.mat is the data file of the trained model
 
 ## Credits
-This model uses Open Source components. You can find the source code of the open source projects. I acknowledge and am grateful to [Mr.Too Jing Wei](https://github.com/JingweiToo) for his contributions to open source.
+This model uses Open Source components. You can find the source code of the open source projects. I acknowledge and am grateful to [Mr. Too Jing Wei](https://github.com/JingweiToo) for his contributions to open source.
 
 Project: [Electroencephalogram ( EEG ) Feature Extraction Toolbox](https://github.com/JingweiToo/EEG-Feature-Extraction-Toolbox)<br />
 Copyright (c) 2020, Jingwei Too <br />

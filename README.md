@@ -23,8 +23,8 @@ The dataset, [EEG_3channels_resting_lanzhou_2015](http://modma.lzu.edu.cn/) is p
 The accuracy of the model is only 68.67%. One of the reason of low accuracy is the dataset is too small as it only have total 55 data where 26 depression patients and 28 healthy controls.
 
 ## File Details
-- Train.m is the code to train the model.
-- Predict.m is the code to predict new data
+- main.m is the code to train the model.
+- predict.m is the code to predict new data
 - SVM.mat is the data file of the trained model
 
 ## Credits

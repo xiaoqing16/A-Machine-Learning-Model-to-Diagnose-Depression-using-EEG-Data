@@ -1,4 +1,3 @@
-cd 'C:\Users\User\Desktop\Demo'
 % load data wants to predict
 filename = uigetfile('*.txt*');
 Data = load(filename);
